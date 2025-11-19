@@ -120,7 +120,6 @@
  "x": "rel_corner_x",
 "y": "rel_corner_y",
 "fill": "TPRate",
-"colour": "TPRate",
 "group": "rel_regions",
 "clickSelects": "Cluster",
 "showSelected1": "round_regions" 
@@ -129,6 +128,7 @@
  "na.rm": false,
 "na.rm": false,
 "alpha":        1,
+"colour": "#BEBEBE",
 "chunk_vars": "round_regions",
 "clickSelects": "Cluster",
 "alpha_off":        1,
@@ -138,7 +138,6 @@
 },
 "types": {
  "fill": "rgb",
-"colour": "rgb",
 "x": "numeric",
 "y": "numeric",
 "group": "character",
@@ -845,60 +844,7 @@
 "genomeZoom": {
  "panel_margin_lines":     0.27,
 "legend": {
- "TPRate": {
- "guide": "legend",
-"geoms": "polygon",
-"title": "TPRate",
-"class": "TPRate",
-"selector": null,
-"is_discrete": false,
-"legend_type": "colour",
-"text_size": "9.6pt",
-"title_size": "12pt",
-"entries": [
- {
- "polygoncolour": "#000000",
-"polygonfill": "#333333",
-"polygonsize":      0.5,
-"polygonlinetype":        1,
-"polygonalpha":        1,
-"label": "1.00" 
-},
-{
- "polygoncolour": "#333333",
-"polygonfill": "#333333",
-"polygonsize":      0.5,
-"polygonlinetype":        1,
-"polygonalpha":        1,
-"label": "0.75" 
-},
-{
- "polygoncolour": "#646464",
-"polygonfill": "#333333",
-"polygonsize":      0.5,
-"polygonlinetype":        1,
-"polygonalpha":        1,
-"label": "0.50" 
-},
-{
- "polygoncolour": "#9A9A9A",
-"polygonfill": "#333333",
-"polygonsize":      0.5,
-"polygonlinetype":        1,
-"polygonalpha":        1,
-"label": "0.25" 
-},
-{
- "polygoncolour": "#D3D3D3",
-"polygonfill": "#333333",
-"polygonsize":      0.5,
-"polygonlinetype":        1,
-"polygonalpha":        1,
-"label": "0.00" 
-} 
-] 
-},
-"TDP": {
+ "TDP": {
  "guide": "legend",
 "geoms": "polygon",
 "title": "TDP",
@@ -911,7 +857,7 @@
 "entries": [
  {
  "polygonfill": "#CD1076",
-"polygoncolour": "#FFFFFF",
+"polygoncolour": "#BEBEBE",
 "polygonsize":      0.5,
 "polygonlinetype":        1,
 "polygonalpha":        1,
@@ -919,7 +865,7 @@
 },
 {
  "polygonfill": "#DF6396",
-"polygoncolour": "#FFFFFF",
+"polygoncolour": "#BEBEBE",
 "polygonsize":      0.5,
 "polygonlinetype":        1,
 "polygonalpha":        1,
@@ -927,7 +873,7 @@
 },
 {
  "polygonfill": "#EE99B8",
-"polygoncolour": "#FFFFFF",
+"polygoncolour": "#BEBEBE",
 "polygonsize":      0.5,
 "polygonlinetype":        1,
 "polygonalpha":        1,
@@ -935,7 +881,7 @@
 },
 {
  "polygonfill": "#F9CCDB",
-"polygoncolour": "#FFFFFF",
+"polygoncolour": "#BEBEBE",
 "polygonsize":      0.5,
 "polygonlinetype":        1,
 "polygonalpha":        1,
@@ -943,7 +889,7 @@
 },
 {
  "polygonfill": "#FFFFFF",
-"polygoncolour": "#FFFFFF",
+"polygoncolour": "#BEBEBE",
 "polygonsize":      0.5,
 "polygonlinetype":        1,
 "polygonalpha":        1,
